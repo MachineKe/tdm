@@ -1,0 +1,40 @@
+# Ignore image files (all subdirectories)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Ignore all XML and JSON files except output models
+*.xml
+*.json
+!archive/split/output/*.pth
+
+# Python virtual environments and bytecode
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Node.js dependencies (if any)
+node_modules/
+
+# MacOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Ignore environment files with dependencies
+environment.yml
+environment.yaml
+
+# Ignore sample and archive images
+samples/
+archive/images/
+archive/annotation_visualizations/
